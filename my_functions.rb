@@ -20,8 +20,12 @@ def find_item(array,house)
   for house in array
     if
       house == array
-      return true 
+      return true
     end
     return false
   end
+end
+
+def get_first_key(wallets)
+  return wallets.keys
 end
